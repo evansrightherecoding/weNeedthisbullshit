@@ -7,7 +7,7 @@
 * Each ini file is customized for our personal use only.
 * Please proceed with caution.
 
-* Hope we can cut the bullshit
+* Hope we can cut this annoying bullshit one day.
 * Hey Miranda, do it yourself.
 
 
