@@ -1,5 +1,4 @@
 /** 
-Forked from KOP_XIAO.
 ☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2021-11-22 13:15⟧
 ----------------------------------------------------------
 🛠 发现 𝐁𝐔𝐆 请反馈: @ShawnKOP_bot
@@ -1933,8 +1932,8 @@ function get_emoji(emojip, sname) {
   }
     str1 = JSON.stringify(Lmoji)
     aa = JSON.parse(str1)
-    bb = JSON.parse(str1.replace(/🇹🇼/g, " 🇹🇼"))
-    var cnt = emojip ==1? aa:bb;
+    //bb = JSON.parse(str1.replace(/🇹🇼/g, " 🇹🇼"))
+    var cnt = aa;
     var flag = 0;
     for (var key in cnt) {
         dd = cnt[key]
