@@ -1,6 +1,6 @@
 # weNeedthisbullshit
 
-# This repo is desinated for my friends and I
+# This repo is desinated for me and my friends
 
 * It is forked from ACL4SSR/ACL4SSR. 
 * It does not contain the actual ACL files from ACL4SSR.
