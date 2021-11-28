@@ -1,4 +1,3 @@
-mixin: # 注意下面缩进
   dns:
     enable: true
     listen: :53
