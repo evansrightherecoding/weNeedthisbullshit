@@ -7,7 +7,7 @@
 * Each ini file is customized for our personal use only.
 * Please proceed with caution.
 
-* Hope we can cut off this annoying bullshit one day.
+* Hope we can cut off this  bullshit one day.
 * Hey Miranda, do it yourself.
 
 
@@ -15,5 +15,4 @@
 # License		
 [![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * CC-BY-SA-4.0
-* Thanks @leosam2048 for his/her work.
 
