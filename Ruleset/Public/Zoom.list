@@ -1,0 +1,26 @@
+USER-AGENT,AppleNews*
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-events.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,play-cdn.itunes-apple.com.akadns.net
+USER-AGENT,com.apple.geod*
+USER-AGENT,com.apple.Maps
+USER-AGENT,geod*
+USER-AGENT,locationd*
+USER-AGENT,Maps*
+DOMAIN,gs-loc.apple.com
+DOMAIN,lcdn-locator.apple.com
+DOMAIN,lcdn-registration.apple.com
+DOMAIN,ls.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+
+# Zoom meeting
+DOMAIN-SUFFIX,zoom.us,Zoom
+DOMAIN-SUFFIX,zpns.zoom.us,Zoom
+DOMAIN-SUFFIX,cloud.zoom.us,Zoom
+DOMAIN-SUFFIX,zoom.us,Zoom
+DOMAIN-SUFFIX,zoomgov.com,Zoom
