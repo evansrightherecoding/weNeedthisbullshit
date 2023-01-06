@@ -7,7 +7,7 @@
 #     - 8.8.8.8
    fallback:
      - tls://8.8.8.8:853
-     - 119.29.29.29
-     - 8.8.8.8
+#    - 119.29.29.29
+#    - 8.8.8.8
 #     - https://dns.google/dns-query
      - https://dns.alidns.com/dns-query
