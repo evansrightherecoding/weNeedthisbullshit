@@ -165,7 +165,7 @@ function testChatGPT() {
     let option = {
       url: BASE_URL_GPT,
       opts: opts1,
-      timeout: 2800,
+      timeout: 1500,
     }
     $task.fetch(option).then(response=> {
       let resp = JSON.stringify(response)
