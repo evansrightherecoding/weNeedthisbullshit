@@ -158,17 +158,17 @@ function testChatGPT() {
     let option = {
       url: BASE_URL_GPT,
       opts: opts1,
-      timeout: 1500,
+      timeout: 1000,
     }
     $task.fetch(option).then(response=> {
       let resp = JSON.stringify(response)
-      console.log("ChatGPT Main Test")
+      //console.log("ChatGPT Main Test")
       let jdg = resp.indexOf("text/plain")
       if(jdg == -1) {
       let option1 = {
         url: Region_URL_GPT,
         opts: opts1,
-        timeout: 1500,
+        timeout: 1000,
       }
       $task.fetch(option1).then(response=> {
         console.log("ChatGPT Region Test")
