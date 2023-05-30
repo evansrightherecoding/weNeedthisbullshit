@@ -3,4 +3,6 @@ DOMAIN-SUFFIX,brawlstarsgame.com
 DOMAIN-SUFFIX,everdalegame.com
 DOMAIN-SUFFIX,supercell.com
 DOMAIN-SUFFIX,haydaygame.com
-DOMAIN,game.haydaygame.com
+DOMAIN-SUFFIX,game.haydaygame.com
+IP-CIDR,65.0.80.54/32,no-resolve
+IP-CIDR,34.142.158.85/32,no-resolve

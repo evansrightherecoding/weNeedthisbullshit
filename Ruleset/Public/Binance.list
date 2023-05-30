@@ -1,0 +1,20 @@
+# 内容：币安交易所
+# 数量：9条
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,saasexch
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,yingwangtech.mobi
+DOMAIN-SUFFIX,mokexweb.cloud
+IP-CIDR,47.100.185.211/32
+IP-CIDR,47.75.116.188/32
+IP-CIDR,47.101.151.69/32

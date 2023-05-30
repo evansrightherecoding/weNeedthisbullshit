@@ -2,6 +2,7 @@ DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN,pay.openai.com
 DOMAIN,chat.openai.com
+DOMAIN,ios.chat.openai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN,auth0.openai.com
 DOMAIN,platform.openai.com
@@ -12,3 +13,6 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,cdn.cloudflare.net
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,stripe
+DOMAIN-SUFFIX, bard.google.com
+DOMAIN-SUFFIX, bing.com
+DOMAIN-KEYWORD, msn
