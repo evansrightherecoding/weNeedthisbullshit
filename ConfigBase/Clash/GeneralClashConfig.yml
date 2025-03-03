@@ -1,8 +1,11 @@
  dns:
    enable: true
    listen: :53
+   default-nameserver:          #解析非IP的dns用的dns服务器,只支持纯IP
+     - 223.5.5.5
    nameserver:
-     - 119.29.29.29
+#    - 119.29.29.29
+     - https://dns.alidns.com/dns-query
 #     - 114.114.114.114
 #     - 8.8.8.8
    fallback:
