@@ -13,9 +13,9 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,cdn.cloudflare.net
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,stripe
-DOMAIN-SUFFIX, bard.google.com
-DOMAIN-SUFFIX, bing.com
-DOMAIN-KEYWORD, msn
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-KEYWORD,msn
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
