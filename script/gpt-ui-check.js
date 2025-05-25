@@ -29,7 +29,7 @@ const Region_URL_GPT = 'https://chat.openai.com/cdn-cgi/trace'
 
 const arrow = " ➟ "
 
-const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36'
+const UA = 'Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
 
 var opts = {
   policy: $environment.params
