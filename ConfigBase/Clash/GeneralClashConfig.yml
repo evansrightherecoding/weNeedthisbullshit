@@ -12,5 +12,5 @@ dns:
 #   - tls://8.8.8.8:853
 #   - 119.29.29.29
 #   - 8.8.8.8
-    - https://dns.google/dns-query
+    - https://8.8.8.8/dns-query
     - https://dns.alidns.com/dns-query
