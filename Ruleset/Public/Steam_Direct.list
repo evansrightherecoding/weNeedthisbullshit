@@ -1,0 +1,54 @@
+# NAME: Steam_Direct
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-03-18
+# DESCRIPTION: Steam国内直连域名 - 下载/社区/商店等
+# HOST-SUFFIX: 28
+# TOTAL: 28
+
+# Steam主站 - 国内有CDN，直连更快
+HOST-SUFFIX,steampowered.com
+HOST-SUFFIX,steamcommunity.com
+HOST-SUFFIX,steamgames.com
+HOST-SUFFIX,steamusercontent.com
+HOST-SUFFIX,steamcontent.com
+HOST-SUFFIX,steamstatic.com
+
+# Steam中国（蒸汽平台）
+HOST-SUFFIX,steamchina.com
+HOST-SUFFIX,csgo.com.cn
+HOST-SUFFIX,dota2.com.cn
+
+# Steam下载CDN - 国内有节点
+HOST-SUFFIX,steamserver.net
+HOST-SUFFIX,steamcontent.com
+HOST-SUFFIX,steamusercontent.com
+
+# Steam商店/社区静态资源
+HOST-SUFFIX,steamstatic.com
+HOST-SUFFIX,steamcommunity-a.akamaihd.net
+HOST-SUFFIX,steamstore-a.akamaihd.net
+HOST-SUFFIX,steamuserimages-a.akamaihd.net
+HOST-SUFFIX,steamcdn-a.akamaihd.net
+
+# Steam好友/聊天（国内可用）
+HOST-SUFFIX,steam-chat.com
+
+# Steam视频
+HOST-SUFFIX,steamvideo.com
+
+# Steam硬件
+HOST-SUFFIX,steambroadcast.com
+HOST-SUFFIX,steamlink.com
+
+# Steam Deck
+HOST-SUFFIX,steamdeck.com
+
+# Steam开发者
+HOST-SUFFIX,partner.steamgames.com
+
+# Steam支持
+HOST-SUFFIX,help.steampowered.com
+
+# Steam统计
+HOST-SUFFIX,steamstat.us

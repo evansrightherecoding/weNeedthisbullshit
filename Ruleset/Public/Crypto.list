@@ -1,20 +1,98 @@
-# 内容：币安交易所
-# 数量：9条
-DOMAIN-KEYWORD,binance
-DOMAIN-KEYWORD,saasexch
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,bnappzh.co
-DOMAIN-SUFFIX,bnbzh.ac
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,saasexch.com
-DOMAIN-SUFFIX,appsflayer.com
-DOMAIN-SUFFIX,yingwangtech.mobi
-DOMAIN-SUFFIX,mokexweb.cloud
-IP-CIDR,47.100.185.211/32
-IP-CIDR,47.75.116.188/32
-IP-CIDR,47.101.151.69/32
+# NAME: Crypto
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-03-17
+# HOST-SUFFIX: 58
+# TOTAL: 58
+
+# OKX / OKX Wallet
+HOST-SUFFIX,okx.com
+HOST-SUFFIX,okex.com
+HOST-SUFFIX,oklink.com
+HOST-SUFFIX,okxcdn.com
+HOST-SUFFIX,okcoin.com
+HOST-SUFFIX,okxwallet.com
+
+# Bybit
+HOST-SUFFIX,bybit.com
+HOST-SUFFIX,bybit-global.com
+HOST-SUFFIX,bybit.cloud
+HOST-SUFFIX,bybit-aws.com
+HOST-SUFFIX,bybit.org
+
+# Bitget / Bitget Wallet
+HOST-SUFFIX,bitget.com
+HOST-SUFFIX,bitgetapi.com
+HOST-SUFFIX,bitget.site
+HOST-SUFFIX,bgit.trade
+HOST-SUFFIX,bitkeep.com
+HOST-SUFFIX,bitkeep.xyz
+HOST-SUFFIX,bitgetwallet.com
+
+# CoinGlass
+HOST-SUFFIX,coinglass.com
+HOST-SUFFIX,coinglass.zone
+
+# HashKey
+HOST-SUFFIX,hashkey.com
+HOST-SUFFIX,hashkey.exchange
+HOST-SUFFIX,hashkeypro.com
+HOST-SUFFIX,hashkeyhub.com
+
+# Binance
+HOST-SUFFIX,binance.com
+HOST-SUFFIX,binance.info
+HOST-SUFFIX,binance.cloud
+HOST-SUFFIX,binance.org
+HOST-SUFFIX,binance.im
+HOST-SUFFIX,binance.me
+HOST-SUFFIX,binance.us
+HOST-SUFFIX,bnbchain.org
+HOST-SUFFIX,trustwallet.com
+
+# Base
+HOST-SUFFIX,base.org
+HOST-SUFFIX,basescan.org
+
+# Kraken
+HOST-SUFFIX,kraken.com
+HOST-SUFFIX,kraken.io
+HOST-SUFFIX,kraken.onl
+
+# Coinbase
+HOST-SUFFIX,coinbase.com
+HOST-SUFFIX,coinbase-static.com
+HOST-SUFFIX,coinbasecdn.net
+HOST-SUFFIX,cb-cdn.net
+HOST-SUFFIX,cb-api.net
+
+# Phantom Wallet
+HOST-SUFFIX,phantom.app
+HOST-SUFFIX,phantom.zone
+
+# DeFi / DEX 常用
+HOST-SUFFIX,uniswap.org
+HOST-SUFFIX,pancakeswap.finance
+HOST-SUFFIX,sushi.com
+HOST-SUFFIX,1inch.io
+HOST-SUFFIX,dydx.exchange
+HOST-SUFFIX,aave.com
+HOST-SUFFIX,compound.finance
+HOST-SUFFIX,makerdao.com
+HOST-SUFFIX,curve.fi
+HOST-SUFFIX,lido.fi
+
+# 区块链浏览器
+HOST-SUFFIX,etherscan.io
+HOST-SUFFIX,bscscan.com
+HOST-SUFFIX,polygonscan.com
+HOST-SUFFIX,arbiscan.io
+HOST-SUFFIX,optimistic.etherscan.io
+HOST-SUFFIX,snowtrace.io
+HOST-SUFFIX,tronscan.org
+
+# RPC节点
+HOST-SUFFIX,infura.io
+HOST-SUFFIX,alchemy.com
+HOST-SUFFIX,quicknode.com
+HOST-SUFFIX,ankr.com

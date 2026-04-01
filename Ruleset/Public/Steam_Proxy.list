@@ -1,0 +1,63 @@
+# NAME: Steam_Proxy
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-03-18
+# DESCRIPTION: Steam需要代理的域名 - 部分功能/区域限制
+# HOST-SUFFIX: 22
+# TOTAL: 22
+
+# Steam好友列表/聊天服务器（部分地区不稳定）
+HOST-SUFFIX,steamcommunity.com
+HOST-SUFFIX,steam-chat.com
+
+# Steam创意工坊（部分地区访问慢）
+HOST-SUFFIX,steamworkshop.download
+
+# Steam市场（部分区域限制）
+HOST-SUFFIX,steamcommunity.com/market
+
+# Steam好友邀请
+HOST-SUFFIX,s.team
+
+# Steam登录验证
+HOST-SUFFIX,steamcommunity.com/openid
+HOST-SUFFIX,steamcommunity.com/oauth
+
+# Steam云存档同步（部分地区慢）
+HOST-SUFFIX,steamcloud.ugc
+
+# Steam远程同乐
+HOST-SUFFIX,steamremoteplay.net
+
+# Steam匹配服务器（部分游戏）
+HOST-SUFFIX,steamgamesnetwork.com
+
+# Steam成就系统
+HOST-SUFFIX,steamcommunity.com/stats
+
+# Steam个人资料
+HOST-SUFFIX,steamcommunity.com/id
+HOST-SUFFIX,steamcommunity.com/profiles
+
+# Steam组/论坛
+HOST-SUFFIX,steamcommunity.com/groups
+HOST-SUFFIX,steamcommunity.com/discussions
+
+# Steam艺术作品/截图
+HOST-SUFFIX,steamcommunity.com/sharedfiles
+HOST-SUFFIX,steamcommunity.com/workshop
+
+# Steam指南
+HOST-SUFFIX,steamcommunity.com/guides
+
+# Steam评测
+HOST-SUFFIX,steamcommunity.com/reviews
+
+# Steam活动
+HOST-SUFFIX,steamcommunity.com/broadcast
+
+# Steam新闻
+HOST-SUFFIX,steamcommunity.com/games
+
+# Steam API
+HOST-SUFFIX,api.steampowered.com

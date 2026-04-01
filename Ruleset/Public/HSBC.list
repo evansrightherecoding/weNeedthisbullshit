@@ -1,0 +1,67 @@
+# NAME: HSBC
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-03-17
+# HOST-SUFFIX: 59
+# TOTAL: 59
+HOST-SUFFIX,hsbc.com
+HOST-SUFFIX,hsbc.com.au
+HOST-SUFFIX,hsbc.com.bd
+HOST-SUFFIX,hsbc.com.br
+HOST-SUFFIX,hsbc.com.cn
+HOST-SUFFIX,hsbc.com.hk
+HOST-SUFFIX,hsbc.com.mo
+HOST-SUFFIX,hsbc.com.my
+HOST-SUFFIX,hsbc.com.ph
+HOST-SUFFIX,hsbc.com.sg
+HOST-SUFFIX,hsbc.com.tw
+HOST-SUFFIX,hsbc.com.vn
+HOST-SUFFIX,hsbc.co.in
+HOST-SUFFIX,hsbc.co.jp
+HOST-SUFFIX,hsbc.co.kr
+HOST-SUFFIX,hsbc.co.nz
+HOST-SUFFIX,hsbc.co.th
+HOST-SUFFIX,hsbc.co.uk
+HOST-SUFFIX,hsbc.net
+HOST-SUFFIX,hsbc.uk
+HOST-SUFFIX,hsbc.ae
+HOST-SUFFIX,hsbc.am
+HOST-SUFFIX,hsbc.bm
+HOST-SUFFIX,hsbc.ca
+HOST-SUFFIX,hsbc.ch
+HOST-SUFFIX,hsbc.de
+HOST-SUFFIX,hsbc.ee
+HOST-SUFFIX,hsbc.fr
+HOST-SUFFIX,hsbc.gi
+HOST-SUFFIX,hsbc.gr
+HOST-SUFFIX,hsbc.ie
+HOST-SUFFIX,hsbc.lk
+HOST-SUFFIX,hsbc.lt
+HOST-SUFFIX,hsbc.lv
+HOST-SUFFIX,hsbc.mt
+HOST-SUFFIX,hsbc.mx
+HOST-SUFFIX,hsbc.pl
+HOST-SUFFIX,hsbc.ru
+HOST-SUFFIX,hsbc.us
+HOST-SUFFIX,hsbcadirect.com
+HOST-SUFFIX,hsbcamanah.com.my
+HOST-SUFFIX,hsbcassetmanagement.com
+HOST-SUFFIX,hsbcconnect.com
+HOST-SUFFIX,hsbcconnect.com.cn
+HOST-SUFFIX,hsbcconnect.com.hk
+HOST-SUFFIX,hsbcinnovationbanking.com
+HOST-SUFFIX,hsbcnet.com
+HOST-SUFFIX,hsbcnetusa.com
+HOST-SUFFIX,hsbcpolska.pl
+HOST-SUFFIX,hsbcprivatebank.com
+HOST-SUFFIX,hsbcsecurities.com
+HOST-SUFFIX,hsbctrinkaus.de
+HOST-SUFFIX,firstdirect.com
+HOST-SUFFIX,mandscurrentaccount.com
+HOST-SUFFIX,mandsinsurance.com
+HOST-SUFFIX,mandsloans.com
+HOST-SUFFIX,mandsprivatebank.com
+HOST-SUFFIX,mandswealth.com
+HOST-SUFFIX,mandsbank.com
+HOST-SUFFIX,mandsbankonline.co.uk
+HOST-SUFFIX,marksandspencer.com
