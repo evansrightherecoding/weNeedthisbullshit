@@ -18,6 +18,11 @@ DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,weixinsxy.com
+DOMAIN,sh.servicewechat.com
+DOMAIN-SUFFIX,petlibro.com
+IP-CIDR,43.132.107.0/24,no-resolve
+IP-CIDR,43.135.60.0/24,no-resolve
+IP-CIDR,43.160.156.0/24,no-resolve
 IP-CIDR,101.32.104.4/32,no-resolve
 IP-CIDR,101.32.104.41/32,no-resolve
 IP-CIDR,101.32.104.56/32,no-resolve
