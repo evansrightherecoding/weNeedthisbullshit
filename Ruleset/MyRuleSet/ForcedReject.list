@@ -1,1 +1,12 @@
 # 内容：Personal Reject Rules
+DOMAIN-SUFFIX,sentry.io
+DOMAIN,wetype.wxqcloud.qq.com
+DOMAIN,wetype.weixin.qq.com
+DOMAIN,sec.sginput.qq.com
+DOMAIN,sg.bls.mdt.qq.com
+DOMAIN,ws-ios.shouji.sogou.com
+DOMAIN,srv-ios.shouji.sogou.com
+DOMAIN,api-ios.shouji.sogou.com
+DOMAIN,get.shouji.sogou.com
+DOMAIN,h2tcbox.baidu.com
+DOMAIN,mime.baidu.com

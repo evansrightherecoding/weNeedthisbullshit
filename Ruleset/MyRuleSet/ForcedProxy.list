@@ -1,4 +1,12 @@
-# 内容：Personal Rules
+# 内容：Personal Proxy Rules
+DOMAIN-SUFFIX,dealmoon.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleadservices.com
+DOMAIN,guzzoni.apple.com,Apple
+DOMAIN-SUFFIX,smoot.apple.com,Apple
+DOMAIN,apple-relay.cloudflare.com,Apple
+DOMAIN,apple-relay.fastly-edge.com,Apple
+DOMAIN,cp4.cloudflare.com,Apple
+DOMAIN,apple-relay.apple.com,Apple
+DOMAIN,gspe1-ssl.ls.apple.com,Apple
+DOMAIN,gsp-ssl.ls.apple.com,Apple
