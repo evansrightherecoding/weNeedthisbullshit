@@ -1,0 +1,73 @@
+# NAME: Global Exchange
+# PURPOSE: Global exchanges and the general crypto ecosystem using Taiwan egress.
+
+# Binance Global (binance.us is intentionally in USServices.list)
+HOST-SUFFIX,binance.cloud
+HOST-SUFFIX,binance.com
+HOST-SUFFIX,binance.im
+HOST-SUFFIX,binance.info
+HOST-SUFFIX,binance.me
+HOST-SUFFIX,binance.org
+HOST-SUFFIX,binancecnt.com
+HOST-SUFFIX,binancefuture.com
+HOST-SUFFIX,bnappzh.co
+HOST-SUFFIX,bnbstatic.com
+HOST-SUFFIX,bnbchain.org
+HOST-SUFFIX,bnbzh.ac
+HOST-SUFFIX,bntrace.com
+HOST-SUFFIX,saasexch.cc
+HOST-SUFFIX,saasexch.com
+HOST-SUFFIX,trustwallet.com
+
+# OKX Global (okcoin.com is intentionally in USServices.list)
+HOST-SUFFIX,okex.com
+HOST-SUFFIX,oklink.com
+HOST-SUFFIX,okx.com
+HOST-SUFFIX,okxcdn.com
+HOST-SUFFIX,okxwallet.com
+
+# Bitget Exchange and Wallet
+HOST-SUFFIX,bgit.trade
+HOST-SUFFIX,bitget.com
+HOST-SUFFIX,bitget.site
+HOST-SUFFIX,bitgetapi.com
+HOST-SUFFIX,bitgetwallet.com
+HOST-SUFFIX,bitkeep.com
+HOST-SUFFIX,bitkeep.xyz
+
+# Bybit
+HOST-SUFFIX,bybit-aws.com
+HOST-SUFFIX,bybit-global.com
+HOST-SUFFIX,bybit.cloud
+HOST-SUFFIX,bybit.com
+HOST-SUFFIX,bybit.org
+
+# Crypto market data
+HOST-SUFFIX,coinglass.com
+HOST-SUFFIX,coinglass.zone
+
+# DeFi and DEX
+HOST-SUFFIX,1inch.io
+HOST-SUFFIX,aave.com
+HOST-SUFFIX,compound.finance
+HOST-SUFFIX,curve.fi
+HOST-SUFFIX,dydx.exchange
+HOST-SUFFIX,lido.fi
+HOST-SUFFIX,makerdao.com
+HOST-SUFFIX,pancakeswap.finance
+HOST-SUFFIX,sushi.com
+HOST-SUFFIX,uniswap.org
+
+# Block explorers
+HOST-SUFFIX,arbiscan.io
+HOST-SUFFIX,bscscan.com
+HOST-SUFFIX,etherscan.io
+HOST-SUFFIX,polygonscan.com
+HOST-SUFFIX,snowtrace.io
+HOST-SUFFIX,tronscan.org
+
+# RPC providers
+HOST-SUFFIX,alchemy.com
+HOST-SUFFIX,ankr.com
+HOST-SUFFIX,infura.io
+HOST-SUFFIX,quicknode.com

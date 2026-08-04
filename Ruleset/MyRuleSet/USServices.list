@@ -1,0 +1,68 @@
+# NAME: US Services
+# PURPOSE: Services that should consistently use the selected US egress.
+
+# US banking and cards
+HOST-SUFFIX,ally.com
+HOST-SUFFIX,allybank.com
+HOST-SUFFIX,americanexpress.com
+HOST-SUFFIX,bankofamerica.com
+HOST-SUFFIX,bofa.com
+HOST-SUFFIX,capitalone.com
+HOST-SUFFIX,chase.com
+HOST-SUFFIX,citi.com
+HOST-SUFFIX,citibank.com
+HOST-SUFFIX,discover.com
+HOST-SUFFIX,jpmorgan.com
+HOST-SUFFIX,jpmorganchase.com
+HOST-SUFFIX,pnc.com
+HOST-SUFFIX,synchrony.com
+HOST-SUFFIX,usbank.com
+HOST-SUFFIX,wellsfargo.com
+
+# HSBC US
+HOST-SUFFIX,us.hsbc.com
+HOST-SUFFIX,hsbc.us
+HOST-SUFFIX,hsbcnetusa.com
+
+# US brokerages and investing
+HOST-SUFFIX,etrade.com
+HOST-SUFFIX,fidelity.com
+HOST-SUFFIX,fidelityinvestments.com
+HOST-SUFFIX,ibkr.com
+HOST-SUFFIX,interactivebrokers.com
+HOST-SUFFIX,merrill.com
+HOST-SUFFIX,merrilledge.com
+HOST-SUFFIX,ml.com
+HOST-SUFFIX,morganstanley.com
+HOST-SUFFIX,robinhood.com
+HOST-SUFFIX,robinhoodcdn.com
+HOST-SUFFIX,schwab.com
+HOST-SUFFIX,schwabcdn.com
+HOST-SUFFIX,tastytrade.com
+HOST-SUFFIX,vanguard.com
+HOST-SUFFIX,webull.com
+HOST-SUFFIX,webullfintech.com
+
+# Coinbase (default account jurisdiction: US)
+HOST-SUFFIX,cb-api.net
+HOST-SUFFIX,cb-cdn.net
+HOST-SUFFIX,coinbase-static.com
+HOST-SUFFIX,coinbase.com
+HOST-SUFFIX,coinbasecdn.net
+
+# US crypto ecosystem
+HOST-SUFFIX,base.org
+HOST-SUFFIX,basescan.org
+HOST-SUFFIX,phantom.app
+HOST-SUFFIX,phantom.zone
+
+# Kraken (default account jurisdiction: US)
+HOST-SUFFIX,kraken.com
+HOST-SUFFIX,kraken.io
+HOST-SUFFIX,kraken.onl
+
+# US exchange entities
+HOST-SUFFIX,binance.us
+HOST-SUFFIX,okcoin.com
+
+# Add non-financial US-only services below this line.

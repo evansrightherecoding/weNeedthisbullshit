@@ -1,0 +1,53 @@
+# NAME: HK Finance
+# PURPOSE: Hong Kong banking, brokerage, exchange and market services.
+
+# HSBC Hong Kong and shared HSBC portals
+HOST-SUFFIX,hsbc.com
+HOST-SUFFIX,hsbc.com.hk
+HOST-SUFFIX,hsbc.net
+HOST-SUFFIX,hsbcassetmanagement.com
+HOST-SUFFIX,hsbcconnect.com
+HOST-SUFFIX,hsbcconnect.com.hk
+HOST-SUFFIX,hsbcnet.com
+HOST-SUFFIX,hsbcprivatebank.com
+HOST-SUFFIX,hsbcsecurities.com
+
+# Hong Kong banks
+HOST-SUFFIX,airstarbank.com
+HOST-SUFFIX,bochk.com
+HOST-SUFFIX,bochkonline.com
+HOST-SUFFIX,bocgi.com
+HOST-SUFFIX,bocgins.com
+HOST-SUFFIX,bocigroup.com
+HOST-SUFFIX,bocim.com
+HOST-SUFFIX,citibank.com.hk
+HOST-SUFFIX,dbs.com.hk
+HOST-SUFFIX,fusionbank.com
+HOST-SUFFIX,hangseng.com
+HOST-SUFFIX,hangseng.com.cn
+HOST-SUFFIX,hangseng.com.hk
+HOST-SUFFIX,hkbea.com
+HOST-SUFFIX,livi.com.hk
+HOST-SUFFIX,mox.com
+HOST-SUFFIX,moxbank.com
+HOST-SUFFIX,moxbank.hk
+HOST-SUFFIX,paob.com.hk
+HOST-SUFFIX,sc.com.hk
+HOST-SUFFIX,welab.bank
+HOST-SUFFIX,za.group
+HOST-SUFFIX,zabank.com
+
+# Hong Kong brokerages and market infrastructure
+HOST-SUFFIX,futu5.com
+HOST-SUFFIX,futuhk.com
+HOST-SUFFIX,futunn.com
+HOST-SUFFIX,hkex.com.hk
+HOST-SUFFIX,hkexnews.hk
+HOST-SUFFIX,moomoo.com
+HOST-SUFFIX,moomoo.com.hk
+
+# HashKey Hong Kong
+HOST-SUFFIX,hashkey.com
+HOST-SUFFIX,hashkey.exchange
+HOST-SUFFIX,hashkeyhub.com
+HOST-SUFFIX,hashkeypro.com
