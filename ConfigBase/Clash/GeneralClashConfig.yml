@@ -5,7 +5,47 @@ dns:
   enable: true
   listen: 127.0.0.1:1053
   ipv6: false
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  # These compatibility exceptions receive real IPs, not fake IPs.
+  # Filtering does not select a DNS upstream or force a DIRECT connection.
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    # Local names; private DNS records still need a local resolver or hosts.
+    - '+.lan'
+    - '+.local'
+    - '+.localdomain'
+    - '+.localhost'
+    - '+.home.arpa'
+    # Common router administration names.
+    - '+.miwifi.com'
+    - '+.router.asus.com'
+    - '+.tplinkwifi.net'
+    - '+.tendawifi.com'
+    # Clock synchronization.
+    - '+.pool.ntp.org'
+    - 'time.apple.com'
+    - 'time-ios.apple.com'
+    - 'time.windows.com'
+    - 'time.android.com'
+    - 'time.google.com'
+    - 'ntp.aliyun.com'
+    # Network connectivity / captive portal checks, including Xiaomi.
+    - 'captive.apple.com'
+    - 'connectivitycheck.gstatic.com'
+    - 'connectivitycheck.android.com'
+    - 'connect.rom.miui.com'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    # Local login callbacks.
+    - 'localhost.ptlogin2.qq.com'
+    - 'localhost.sec.qq.com'
+    - 'localhost.*.weixin.qq.com'
+    # Common STUN names for calls and games; routing rules still apply.
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
   use-hosts: true
   use-system-hosts: true
   prefer-h3: false
@@ -24,20 +64,18 @@ dns:
     - 'https://223.5.5.5/dns-query#DIRECT'
     - 'https://223.6.6.6/dns-query#DIRECT'
 
-  # Default DNS queries use an encrypted proxy path, including initial
-  # redir-host queries for domains that may later connect via DIRECT.
+  # Real-IP queries handled by the default resolver use an encrypted proxy path.
   # Selected is shared by all INI templates; Current/Final may select DIRECT.
   nameserver:
     - 'https://1.1.1.1/dns-query#Selected'
     - 'https://8.8.8.8/dns-query#Selected'
 
   # Domestic DNS for domain resolution performed by the DIRECT outbound.
-  # This does not replace the initial redir-host DNS query.
   direct-nameserver:
     - 'https://223.5.5.5/dns-query#DIRECT'
     - 'https://223.6.6.6/dns-query#DIRECT'
   direct-nameserver-follow-policy: false
 
-  # No domain-specific DNS policy yet; initial queries use nameserver above.
+  # No domain-specific DNS policy; the default resolver uses nameserver above.
   nameserver-policy: {}
   fallback: []
