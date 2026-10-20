@@ -2,9 +2,7 @@
 # DESCRIPTION: WeChat / Weixin direct-connect rules
 # SOURCES: blackmatrix7/ios_rule_script, ACL4SSR/ACL4SSR, Repcz/Tool, v2fly/domain-list-community
 
-# Client identifiers (supported clients only)
-USER-AGENT,MicroMessenger*
-USER-AGENT,WeChat*
+# Clash does not support USER-AGENT rules; use the domain and IP rules below.
 
 # WeChat / Weixin domains
 DOMAIN-KEYWORD,wechat
