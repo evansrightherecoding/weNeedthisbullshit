@@ -66,3 +66,7 @@ DOMAIN-SUFFIX,binance.us
 DOMAIN-SUFFIX,okcoin.com
 
 # Add non-financial US-only services below this line.
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,linkedin.cn
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,licdn.cn
