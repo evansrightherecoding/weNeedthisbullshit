@@ -192,23 +192,20 @@ dns:
   # IP-based HTTPS endpoints avoid plaintext bootstrap DNS.
   default-nameserver:
     - https://223.5.5.5/dns-query
-    - https://223.6.6.6/dns-query
 
   # Resolve proxy node hostnames independently, avoiding proxy/DNS recursion.
   proxy-server-nameserver:
     - 'https://223.5.5.5/dns-query#DIRECT'
-    - 'https://223.6.6.6/dns-query#DIRECT'
 
   # Real-IP queries handled by the default resolver use an encrypted proxy path.
   # Selected is shared by all INI templates; Current/Final may select DIRECT.
   nameserver:
-    - 'https://1.1.1.1/dns-query#Selected'
+  #  - 'https://1.1.1.1/dns-query#Selected'
     - 'https://8.8.8.8/dns-query#Selected'
 
   # Domestic DNS for domain resolution performed by the DIRECT outbound.
   direct-nameserver:
     - 'https://223.5.5.5/dns-query#DIRECT'
-    - 'https://223.6.6.6/dns-query#DIRECT'
   direct-nameserver-follow-policy: false
 
   # No domain-specific DNS policy; the default resolver uses nameserver above.
