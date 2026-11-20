@@ -30,11 +30,13 @@ DOMAIN-SUFFIX,cdn.cloudflare.net
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,stripe
 DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+
+# Shared AI telemetry (OpenAI / Claude)
+DOMAIN-SUFFIX,statsigapi.net
 
 # Google Gemini / DeepMind
 DOMAIN-SUFFIX,bard.google.com
@@ -116,8 +118,14 @@ DOMAIN-SUFFIX,claudepages.dev
 DOMAIN-SUFFIX,claudestudio.com
 DOMAIN-SUFFIX,claudeusercontent.com
 
-# Claude CDN
+# Claude CDN and content
 DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic-com.ghost.io
+
+# Claude identity verification dependencies
+DOMAIN,maps.googleapis.com
+DOMAIN-SUFFIX,withpersona.com
+DOMAIN-SUFFIX,frompersona.com
 
 # Claude Code telemetry
 DOMAIN,http-intake.logs.us5.datadoghq.com
